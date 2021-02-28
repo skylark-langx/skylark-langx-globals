@@ -1,2 +1,2 @@
-# skylark-langx-global
+# skylark-langx-globals
 The skylark global library for javascript language extension.

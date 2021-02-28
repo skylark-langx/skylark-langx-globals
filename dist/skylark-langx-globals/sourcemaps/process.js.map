@@ -1,0 +1,1 @@
+{"version":3,"sources":["process.js"],"names":["define","globals","process","require"],"mappings":";;;;;;;AAAAA,QACC,aACE,SAASC,GACX,OAAOA,EAAQC,QAAUC,QAAQ","file":"../process.js","sourcesContent":["define([\n\t\"./globals\"\n], function(globals) {\n\treturn globals.process = require('process');\n});\n"]}

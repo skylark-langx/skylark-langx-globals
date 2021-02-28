@@ -1,0 +1,32 @@
+{
+  "name": "skylark-langx-globals",
+  "version": "0.9.0",
+  "description": "The skylark JavaScript language extension library.",
+  "main": "./index",
+  "scripts": {
+    "build": "slib build ."
+  },
+  "homepage": "www.skylarkjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylarklangx/skylark-langx-globals.git"
+  },
+  "keywords": [
+    "skylark",
+    "skylarkjs",
+    "javacript",
+    "language extension"
+  ],
+  "author": "Hudaokeji Co.,Ltd",
+  "license": "MIT",
+  "bugs": "https://github.com/skylarklangx/skylark-langx/issues",
+  "exports": {
+    "./": "./dist/uncompressed/skylark-langx-globals/"
+  },
+  "dependencies": {
+    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git#master"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["console.js"],"names":["define","globals","console"],"mappings":";;;;;;;AAAAA,QACC,aACE,SAASC,GACX,OAAOA,EAAQC,QAAUA","file":"../console.js","sourcesContent":["define([\n\t\"./globals\"\n], function(globals) {\n\treturn globals.console = console;\n});"]}
