@@ -9,8 +9,12 @@ define([
 	if (typeof document !== 'undefined') {
 	    doccy = document;
 	} else {
-        doccy  = require('min-document');
-	}
+        try {
+            doccy  = require('min-document');
+        } catch(e) {
+            console.warn("min-document is not finded!",e);
+        }
+   	}
 
 
 	return globals.document = doccy;

@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./globals"],function(e){var n;"undefined"!=typeof global?global:"undefined"!=typeof window&&window;return n="undefined"!=typeof document?document:require("min-document"),e.document=n});
+define(["./globals"],function(e){var n;"undefined"!=typeof global?global:"undefined"!=typeof window&&window;if("undefined"!=typeof document)n=document;else try{n=require("min-document")}catch(e){console.warn("min-document is not finded!",e)}return e.document=n});
 //# sourceMappingURL=sourcemaps/document.js.map
