@@ -21,7 +21,8 @@
   "license": "MIT",
   "bugs": "https://github.com/skylarklangx/skylark-langx/issues",
   "exports": {
-    "./": "./dist/uncompressed/skylark-langx-globals/"
+    ".": "./dist/uncompressed/skylark-langx-globals/main.js",
+    "./*": "./dist/uncompressed/skylark-langx-globals/*.js"
   },
   "dependencies": {
     "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git"
